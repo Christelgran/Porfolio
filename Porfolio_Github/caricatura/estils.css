@@ -1,0 +1,309 @@
+body{
+  background: white;
+}
+
+#pelo{
+  margin: 0 auto;
+  margin-top: 50px;
+  height: 780px;
+  width: 645px;
+  background-color: #773e1e;
+  padding-top: 70px;
+  border-radius:  63% 63% 69% 69% ;
+}
+
+#mecha{
+  margin: 0 auto;
+  height: 536px;
+  width: 290px;
+  background-color: #773e1e;
+  clip-path: ellipse(27% 40% at 50% 50%);
+  transform: rotate(37deg);
+  position: absolute;
+  float: left;
+  margin-top: -157px;
+  margin-left: -90px;
+}
+
+
+
+#contenedor{
+  margin: 0 auto;
+  height: 557px;
+  width:550px;
+  background-color: ;
+}
+
+.cara{
+  margin: auto;
+  height: 557px;
+  width:450px;
+  background-color: #f3bc8b;
+  border-radius: 50%;
+}
+#ceja1{
+  margin: auto;
+  height: 150px;
+  width: 150px;
+  background-color: #5D3417;
+  clip-path: polygon(41% 21%, 100% 25%, 100% 38%, 41% 29%, 0 35%);
+  position: absolute;
+  top:210px;
+  left:900px;
+
+}
+#ceja2{
+  margin: auto;
+  height: 150px;
+  width: 150px;
+  background-color: #5d3417;
+  clip-path: polygon(41% 21%, 100% 25%, 100% 38%, 41% 29%, 0 35%);
+  transform: scaleX(-1);
+  position: absolute;
+  top:210px;
+  left:1103px;
+}
+
+
+
+#linear1{
+  margin: 0 auto;
+  height: 140px;
+  width: 140px;
+  background-color: black;
+  clip-path: polygon(77% 37%, 64% 45%, 44% 31%, 64% 41%);
+  position: absolute;
+  top:270px;
+  left:1146px;
+}
+
+#linear2{
+  margin: 0 auto;
+  height: 140px;
+  width: 140px;
+  background-color: black;
+  clip-path: polygon(77% 37%, 64% 45%, 44% 31%, 64% 41%);
+  transform: scaleX(-1);
+  position: absolute;
+  top:270px;
+  left:882px;
+}
+
+
+
+.ojo{
+  margin: 0 auto;
+  height: 90px;
+  width: 90px;
+  background-color: white ;
+  transform: rotate(45deg);
+  border-radius: 100% 0;
+  position: relative;
+  float: left;
+  margin-top: 168px;
+  margin-left: 85px;
+
+}
+
+.ojo::before{
+  content: '';
+  display: block;
+  height: 45px;
+  width: 45px;
+  border-radius: 100%;
+  background-color:#4f2b04  ;
+  position: absolute;
+  transform: translate(22px, 22px);
+}
+
+.ojo::after{
+  content: '';
+  display: block;
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background-color:white ;
+  position: absolute;
+  transform: translate(37px, 37px);
+}
+
+#oreja1{
+  height: 120px;
+  width: 100px;
+  border-radius: 50%;
+  background-color:  #f3bc8b ;
+  position: absolute;
+  top:390px;
+  left:805px;
+}
+
+#oreja2{
+  height: 120px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #f3bc8b;
+  position: absolute;
+  top:390px;
+  left:1270px;
+}
+
+#pen1{
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color:white;
+  position: absolute;
+  top:412px;
+  left:1348px;
+}
+
+#pen2{
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  background-color:white;
+  position: absolute;
+  top:477px;
+  left:1348px;
+}
+
+#pen3{
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  background-color:white;
+  position: absolute;
+  top:485px;
+  left:1332px;
+}
+
+#pen4{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color:white;
+  position: absolute;
+  top:487px;
+  left:1310px;
+}
+
+#pen5{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color:white;
+  position: absolute;
+  top:487px;
+  left:855px;
+}
+
+#pen6{
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  background-color:white;
+  position: absolute;
+  top:487px;
+  left:836px;
+}
+
+#pen7{
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  background-color:white;
+  position: absolute;
+  top:482px;
+  left:820px;
+}
+
+
+
+#mejilla1{
+  height: 49px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: pink;
+  opacity: 60%;
+  position: absolute;
+  float: left;
+  top:370px;
+  left:900px;
+}
+
+#mejilla2{
+  height: 49px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: pink;
+  opacity: 60%;
+  transform: scaleX(-1);
+  position: absolute;
+  top:370px;
+  left:1200px;
+}
+
+
+
+#nariz{
+  height: 70px;
+  width: 70px;
+  background: linear-gradient(to bottom,#f3bc8b, 60%, #edae78);
+  clip-path: polygon(50% 0%, 24% 100%, 79% 100%);
+  border-radius:0%  50% 50%;
+  position: relative;
+  top:283px;
+  left: 198px;
+}
+
+
+#boca{
+  height: 60px;
+  width:120px;
+  background-color: rgb(222, 9, 9);
+  border-radius: 100px 100px 0 0;
+  transform: rotate(180deg);
+  position: relative;
+  top:353px;
+  left: 170px;
+}
+
+
+#dientes{
+  height: 100px;
+  width:120px;
+  clip-path: inset(5% 0 79% 0);
+  background-color: white;
+  position: absolute;
+  top:45px;
+  left:0px;
+}
+
+
+
+#coll{
+  margin: auto;
+  height:175px;
+  width:195px ;
+  background-color: #f3bc8b;
+  margin-top:-251px;
+}
+
+#camisa{
+  margin: auto;
+  height:170px;
+  width:150px ;
+  background-color:white;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  transform: rotate(180deg);
+}
+
+#cos{
+  margin:  auto;
+  height:500px;
+  width:575px ;
+  background-color: red;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 63% 75%, 50% 75%, 0% 75%);
+  border-radius: 25% 25% 20% 20%;
+  margin-top:-60px;
+}
