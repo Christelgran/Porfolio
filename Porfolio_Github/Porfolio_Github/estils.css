@@ -1,0 +1,77 @@
+body{
+    margin: 0 auto;
+    height: 1200px;
+    background: linear-gradient( to bottom right, #A089BE, #DAD4EB, #EBD4E8, #E8A4C9);
+  }
+  
+#header{
+    width: 100%;
+    background-color: ;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Berkshire Swash', cursive;
+    color:#8672A3;
+  }
+  .contenedor{
+    height: 500px;
+    width: 880px;
+    margin-top: 200px;
+    background-color:;
+    margin: 0 auto;
+    margin-top:200px ;
+    padding: 0;
+  
+  }
+
+  h2{
+    font-size: 23px;
+    font-family: 'Berkshire Swash', cursive;
+    color: white;
+    line-height: 90px;
+    z-index: 1;
+    position:absolute ;
+    text-align: justify
+  }
+
+.corazones {
+  width: 100px;
+  height: 100px;
+  background: #E8A4C9;
+  float:left;
+  transform: rotate(45deg);
+  box-shadow: -20px 20px 150px #da6ca8 ;
+  margin: 60px;
+  margin-top: 86px;
+  animation: palpitar 0.5s linear infinite alternate;
+}
+
+@keyframes palpitar {
+  0% {transform: scale(1.10) rotate(45deg);}
+  80% {transform: scale(1.0) rotate(45deg);}
+  100% {transform: scale(0.8) rotate(45deg);}
+}
+
+.corazones::before{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #E8A4C9;
+  right: 50%;
+  border-radius: 50%;
+  box-shadow: 20px 20px 150px #E8A4C9 ;
+
+}
+
+.corazones::after{
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #E8A4C9;
+  top: -50%;
+  border-radius: 50%;
+  box-shadow: 20px 20px 150px #E8A4C9 ;
+
+}
+
