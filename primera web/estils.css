@@ -1,0 +1,210 @@
+body{
+  background: linear-gradient(45deg,#FFF1B3,#C0E3E5, #FFD3B6, #F4B2BE, #CBABC9);
+  margin: 0 auto;
+}
+
+#cabezera{
+  height: 180px;
+  background-image: url(../img/Logo.png);
+  background-repeat: no-repeat;
+  background-size: 160px;
+  margin-top: 14px;
+  margin-left: 50px;
+}
+
+
+
+nav{
+  background:;
+  font-family: 'Cookie', cursive;
+}
+
+nav:after{
+  content: '';
+  clear: both;
+  display: table;
+}
+nav ul{
+  float:right;
+  list-style: none;
+  margin-right: 40px;
+  position: relative;
+}
+
+nav ul li{
+  float:left;
+  display: inline-block;
+  background:;
+  margin: 0 auto;
+}
+
+nav ul li a{
+  margin: 0 auto;
+  color:black;
+  text-decoration: none;
+  line-height: 40px;
+  font-size: 20px;
+  padding: 8px 15px;
+}
+
+nav ul li a:hover{
+  color: #C0E3E5;
+  box-shadow: 0 0 5px #C0E3E5,
+              0 0 5px #C0E3E5;
+}
+nav ul ul{
+  position: absolute;
+  text-align: center;
+  top:52px;
+  left: 63px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+nav ul li:hover >ul{
+  opacity: 1;
+  visibility: visible;
+}
+nav ul ul li{
+  position: relative;
+  margin: 0px;
+  width:100px;
+  float: none;
+  display: list-item;
+}
+
+#contenedor1{
+  background-color: ;
+  margin: auto;
+  width:  730px;
+  height:  1500px;
+  margin-top: 100px;
+}
+
+.caja{
+  background-color:red;
+  width: 222px;
+  height: 511px;
+  margin: 10px;
+  float: left;
+}
+
+#uno{
+  background-color:red;
+  background-image: url(../img/browny_2.jpg);
+  background-size:cover;
+  text-align: center;
+}
+
+#dos{
+  background-color:black;
+  background-image: url(../img/cackes_2.jpg);
+  background-position:center;
+  background-size:cover;
+}
+
+#tres{
+  background-color:green;
+  background-image: url(../img/macarons_1.jpg);
+  background-size:cover;
+}
+
+#cuatro{
+  background-color:red;
+  width: 250px;
+  height:250px;
+  margin-left: 100px;
+  margin-top:  120px;
+  background-image: url(../img/cupcakes_1.jpg);
+  background-size:cover;
+}
+
+#cinco{
+  background-color:black;
+  width: 250px;
+  height:250px;
+  margin-top: 395px;
+  margin-left: -250px;
+  background-image: url(../img/cheescackes.jpg);
+  background-size:cover;
+}
+
+.caixa{
+  background-color:;
+  width: 580px;
+  height:520px;
+  margin: 0 auto;
+  float: left;
+  margin-top: 60px;
+  margin-left: 80px;
+
+
+}
+
+#caixatext1{
+  background-color:;
+  width: 270px;
+  height:120px;
+  margin-left: 265px;
+  margin-top:118px;
+}
+
+#caixatext2{
+  background-color:;
+  width: 270px;
+  height:160px;
+  margin-left: 265px;
+  margin-top:68px;
+}
+
+
+
+h3{
+  margin-left:35px ;
+  font-family: 'Cookie', cursive;
+  font-size: 25px;
+}
+
+h2{
+  margin-left:35px ;
+  font-size: 15px;
+  margin: 0 auto;
+  margin-top: -10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+p{
+  margin: 10px;
+  font-size:14px;
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+}
+
+ol{
+    font-size:14px;
+    height:23px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 40px;
+}
+
+#footer{
+background-color:#F9B0BE;
+height: 120px;
+clear: both;
+text-align: center;
+line-height: 50px;
+}
+
+#redes{
+  background-color:;
+  height:70px;
+  width:180px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+  background-image: url(../img/elementos.png);
+  background-repeat: no-repeat;
+  background-size: 130px;
+  background-position:bottom ;
+}
